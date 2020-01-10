@@ -13,9 +13,9 @@ public class MidtermAct03
 				if(code.equals("1001-11")) {
 					System.out.println("The code found");
 					System.out.println("Code:" +code);
-					System.out.println("First Name" + scanner.next());
-					System.out.println("Last Name" + scanner.next());
-					System.out.println("Cp Number" + scanner.next());
+					System.out.println("First Name:" +scanner.next());
+					System.out.println("Last Name:" +scanner.next());
+					System.out.println("Cp Number:" +scanner.next());
 					continue;
 				}
 			}
