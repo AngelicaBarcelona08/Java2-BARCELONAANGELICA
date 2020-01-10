@@ -6,10 +6,10 @@ public class Prelimact02
 		try {
 			BufferedReader in = new BufferedReader(new FileReader("Phonebook.txt"));
 			int ascii = 0, colon = 0;
-			String data = "", fname = "", lname = "", cp = "";
+			String data="", fname="", lname="", cp="";
 			boolean hasFound = false;
 			
-			while ((ascii = in.read()) != -1) {
+			while ((ascii = in.read()) !=-1) {
 				String s = String.valueOf((char)ascii);
 				data = data.concat(s);
 				
