@@ -33,7 +33,7 @@ public class MidtermAct04
 			in.close();
 			} 
 			catch (IOException e) {
-            	System.out.println("Error");
-        	}
+            			System.out.println("Error");
+        		}
 		}
 	}
