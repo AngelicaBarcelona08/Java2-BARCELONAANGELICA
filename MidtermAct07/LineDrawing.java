@@ -16,6 +16,5 @@ public class LineDrawing
 		terminal.flush();
 		terminal.readInput();
 		terminal.exitPrivateMode();
-
+		}
 	}
-}
