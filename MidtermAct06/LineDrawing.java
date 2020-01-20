@@ -7,11 +7,9 @@ public class LineDrawing
 		Terminal terminal = new DefaultTerminalFactory().createTerminal();
 		terminal.enterPrivateMode();
 		int x =0,y =0;
-
 		for ( ;y<2;y++) {
 			terminal.setCursorPosition(x,y);
 			terminal.putCharacter('x');
-
 		for (  ;x<10;++x) {
 			terminal.setCursorPosition(x,y);
 			terminal.putCharacter('x');
@@ -21,6 +19,6 @@ public class LineDrawing
 			terminal.flush();
 			terminal.readInput();
 			terminal.exitPrivateMode();
-
+			}
 		}
-	}
+		
